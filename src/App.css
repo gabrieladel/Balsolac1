@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +40,17 @@
 .read-the-docs {
   color: #888;
 }
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400;600&display=swap');
+
+
+#root {
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Edu TAS Beginner', cursive;
+}
+
