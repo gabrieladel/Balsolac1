@@ -1,7 +1,7 @@
 {
   "name": "balsolac1",
   "private": true,
-   "homepage": "https://gabrieladel.github.io/Balsolac1",
+  "homepage": "https://gabrieladel.github.io/Balsolac1",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -11,10 +11,12 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.3",
     "react": "^18.3.1",
+    "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
@@ -28,6 +30,7 @@
     "eslint-plugin-react-refresh": "^0.4.9",
     "gh-pages": "^6.1.1",
     "globals": "^15.9.0",
+    "sass": "^1.78.0",
     "vite": "^5.4.1"
   }
 }

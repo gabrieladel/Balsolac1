@@ -1,0 +1,30 @@
+.navbar{
+    /* width: 80%; */
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+  }
+  
+  .header_logo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50px;
+    border-color: #acc496;
+    /* margin: 1rem; */
+  }
+  .navbar-toggler{
+    margin-right: 5%;
+  }
+  
+  .nav-link {
+    margin: 10px;
+    /* width: 10em; */
+    padding-left: 20 px
+  ;
+  color: aliceblue;
+  }
+  
+  nav.navbar {
+    max-height: 7rem;
+  }
+  
