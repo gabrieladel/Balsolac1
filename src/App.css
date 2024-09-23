@@ -17,6 +17,25 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+/* Estilos generales */
+body {
+  font-size: 16px;
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Pantallas medianas (tabletas) */
+@media (min-width: 601px) and (max-width: 900px) {
+  body {
+    font-size: 15px;
+  }
+}
+
 
 @keyframes logo-spin {
   from {
@@ -51,3 +70,18 @@
   font-family: 'Edu TAS Beginner';
 }
 
+@media only screen and (max-width: 600px) {
+  .mainItems {
+      grid-template-columns: auto;
+  }
+
+  .conteiner {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 15px;
+  }
+  img {
+      max-width: 100%;
+      height: auto;
+    }
+}
