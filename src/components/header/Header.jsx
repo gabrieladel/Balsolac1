@@ -31,8 +31,8 @@ function Header() {
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#emprende">
-                  Emprende con Nosotros
+                <a className="nav-link" href="#quienes">
+                ¿Quienes somos?
                 </a>
               </li>
               <li className="nav-item">
@@ -40,8 +40,19 @@ function Header() {
                   Contacto
                 </a>
               </li>
+              <li className="nav-item">
+                <a className="nav-link" href="#emprende">
+                  Emprende con Nosotros
+                </a>
+              </li>
+              
             </ul>
           </div>
+         {/*  <li className="nav-item">
+                <a className="nav-link" href="#emprende">
+                  Carrito
+                </a>
+              </li> */}
         </div>
       </nav>
     
