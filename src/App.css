@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 } */
-
+body{
+  background-image: url(./assets/images/fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .logo {
   height: 6em;
   padding: 1.5em;
