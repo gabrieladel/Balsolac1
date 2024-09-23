@@ -1,0 +1,49 @@
+body{
+    background-image: url(../../assets/images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    color: #f0f2f4;
+    font-size: 50px;
+}
+
+section#inicio {
+    margin-top: 20vh;
+}
+
+.conteiner {
+    width: 90%;
+    max-width: 1400px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+    color:aliceblue
+}
+
+.App {
+    border-radius: 20%;
+    font-weight: bold;
+    border: none;
+}
+
+
+.log {
+    width: 500px;
+    height: 430px;
+    /* margin: 10px; */
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mainItems {
+        grid-template-columns: auto;
+    }
+
+    .conteiner {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+}
