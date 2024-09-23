@@ -1,0 +1,21 @@
+
+a{
+    margin: 10px;
+    text-decoration: none;
+    color:aliceblue;
+}
+
+.footer {
+  width: 100vw;  /* Ancho completo de la pantalla */
+  background-color: #343a40; /* Fondo oscuro (similar a bg-dark de Bootstrap) */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+}
+
+.footer-content {
+  max-width: 1200px; /* Puedes definir un máximo ancho si deseas centrar el contenido */
+  margin: 0 auto;
+}
+
