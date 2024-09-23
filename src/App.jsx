@@ -3,7 +3,6 @@ import img from './assets/images/fondo.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header/Header'
 
-import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
