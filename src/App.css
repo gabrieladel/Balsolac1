@@ -5,7 +5,7 @@
   flex-direction: column;
   justify-content: center;
   font-family: 'Edu TAS Beginner';
-  background: rgb(208, 237, 186);
-  background: linear-gradient(0deg, rgb(244, 217, 232) 30%, rgb(228, 247, 213) 80%);
+  background: rgb(230, 246, 219);
+  background: linear-gradient(0deg, rgb(247, 228, 238) 20%, rgb(229, 244, 218) 80%);
   
 }
