@@ -5,8 +5,7 @@
   flex-direction: column;
   height: 100%;
   font-family: 'Edu TAS Beginner';
-  background: rgb(230, 246, 219);
-  background: linear-gradient(0deg, rgb(247, 228, 238) 20%, rgb(229, 244, 218) 80%);
+  
   
 }
 html,body{
@@ -15,4 +14,13 @@ html,body{
   width: 100vw;
   margin: 0%;
   padding: 0%;
+  background-image: linear-gradient(
+    1deg, 
+    transparent, 
+    #c6878f 40%, 
+    transparent 50%
+  
+  ), url('./assets/images/fondo.png');
+  background-size:  cover;
+ 
 }
