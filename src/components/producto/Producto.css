@@ -4,15 +4,10 @@
     background-size: cover;
 } */
 .conteiner-producto{
-width: 90%;
-display: grid;
-
-max-width: 1500px;
-padding: 40px auto;
-gap: 12px;
-grid-template-columns: 2fr 1fr;
-grid-gap: 16px;
 color:aliceblue;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 .info{
@@ -28,3 +23,17 @@ color:aliceblue;
 .text-producto p{
     color: green;
 } */
+
+
+
+  
+  .video {
+    width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .video {
+      order: 2;
+    }
+  }

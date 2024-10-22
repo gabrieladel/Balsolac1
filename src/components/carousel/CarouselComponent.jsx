@@ -8,7 +8,7 @@ import './CarouselStyles.css'; // Importa tu archivo CSS si es necesario
 
 const CarouselComponent = () => {
   return (
-    <Carousel>
+    <Carousel className='carousel'>
       <Carousel.Item>
         <img
           className="d-block w-100"
