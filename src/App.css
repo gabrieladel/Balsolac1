@@ -3,9 +3,16 @@
   display: flex;
   text-align: center;
   flex-direction: column;
-  justify-content: center;
+  height: 100%;
   font-family: 'Edu TAS Beginner';
   background: rgb(230, 246, 219);
   background: linear-gradient(0deg, rgb(247, 228, 238) 20%, rgb(229, 244, 218) 80%);
   
+}
+html,body{
+  width: 100%;
+  overflow-x: hidden;
+  width: 100vw;
+  margin: 0%;
+  padding: 0%;
 }

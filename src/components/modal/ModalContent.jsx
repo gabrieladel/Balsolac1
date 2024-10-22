@@ -16,7 +16,7 @@ function ModalInst() {
         Modo de uso
       </Button>
       </div>
-      <div className="modal">
+      <div className="modal" style={{backgroundColor:"gray ", opacity: ".5"}}>
       <Modal  show={show} onHide={handleClose} id="modal">
         
         <Modal.Header closeButton>

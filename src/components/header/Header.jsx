@@ -11,12 +11,12 @@ function Header() {
     <Navbar expand="lg" className="bg-dark " >
       <Container>
         <Navbar.Brand href="#home"><img src={imgLogo} className="header_logo" width="30" height="24" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" style={{backgroundColor:"white" }}/>
         <Navbar.Collapse id="basic-navbar-nav ">
-          <Nav className="me-auto">
+          <Nav className="me-auto" >
             <Nav.Link href="#inicio">Inicio</Nav.Link>
             <Nav.Link href="#producto">Producto</Nav.Link>
-            <Nav.Link href="#quienes?">¿Quienes somos?</Nav.Link>
+            
             <Nav.Link href="#contacto">Contacto</Nav.Link>
             <Nav.Link href="#emprende"> Emprende con Nosotros</Nav.Link>
               
