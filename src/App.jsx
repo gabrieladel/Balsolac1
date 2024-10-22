@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import Header from './components/header/Header'
@@ -10,22 +10,29 @@ import Footer from "./components/footer/Footer";
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
- 
-      <Header />
-      
-      <Inicio />
 
-      <Producto />
-      
-      <Contacto />
-      <Emprende />
+      <Header />
+      <main className='conteiner'>
+        <section id="inicio" >
+          <Inicio />
+        </section>
+        <section id="producto" >
+          <Producto />
+        </section>
+        <section id="contacto" >
+          <Contacto />
+        </section>
+        <section id="emprende" >
+          <Emprende />
+        </section>
+      </main>
       <Footer />
 
-      
+
     </>
   )
 }

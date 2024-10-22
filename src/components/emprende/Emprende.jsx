@@ -1,10 +1,11 @@
 import "./Emprende.css";
 import ContactForm from "../formComponent/FormComponent"
+import background from '../../assets/images/emprender.png';
 
  function Emprende() {
      return (
       <>
-      <section id="emprende"></section>
+     
       <div className="conteiner-1">
       <h1>Emprende con nosotros</h1>
 
@@ -13,6 +14,7 @@ import ContactForm from "../formComponent/FormComponent"
         <ContactForm />
         </div>
         </div>
+      
       </>
      );
  }

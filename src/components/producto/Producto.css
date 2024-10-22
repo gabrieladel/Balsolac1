@@ -3,4 +3,28 @@
     background-repeat: no-repeat;
     background-size: cover;
 } */
+.conteiner-producto{
+width: 90%;
+display: grid;
 
+max-width: 1500px;
+padding: 40px auto;
+gap: 12px;
+grid-template-columns: 2fr 1fr;
+grid-gap: 16px;
+color:aliceblue;
+}
+
+.info{
+    
+    display: flex;
+    flex-direction: column;
+}
+
+/* .conteiner-producto h1{
+    color:gray;
+}
+
+.text-producto p{
+    color: green;
+} */

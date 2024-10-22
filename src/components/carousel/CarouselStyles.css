@@ -3,5 +3,7 @@
     height: 400px; /* Establece una altura fija */
     object-fit: cover; /* Ajusta la imagen sin perder la proporción, pero puede recortar */
     border-radius: 20px;
+   
   }
+  
   
