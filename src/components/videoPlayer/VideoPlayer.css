@@ -1,5 +1,6 @@
 .video-container {
-    max-width: 300px; /* Ancho máximo para el video */
+    max-width: 400px; /* Ancho máximo para el video */
+    max-height: 800px;
     margin: 0 auto;   /* Centrar el video horizontalmente */
     padding: 20px;
   }

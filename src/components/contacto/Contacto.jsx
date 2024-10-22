@@ -9,9 +9,8 @@ function Contacto() {
        
           <div className="conteiner-cont2">
           <h1>Contacto</h1>
-            <p>Por consultas sobre el estado de tu pedido, por favor escribí un mail indicando tu numero de orden (#) a:</p>
-            <ul>
-              <li><b>Domicilio: </b>Parque Los Robles en el acceso a la Base Áerea,Cordenadas:-37.280248,-59.211907(7000) / Tandil(Bs.As.)</li>
+            <p >Por consultas sobre el estado de tu pedido, por favor escribí un mail indicando tu numero de orden (#) a:</p>
+            <ul className="text">
             
               <li><b>Tel/Fax: </b> (0249) 4576551</li>
             
